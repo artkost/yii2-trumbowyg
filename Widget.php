@@ -106,6 +106,10 @@ class Widget extends InputWidget
             $asset->language = $this->settings['lang'];
         }
 
+        if (isset($this->settings['plugins'])) {
+            $asset->plugins = $this->settings['plugins'];
+        }
+
         $settings = !empty($this->settings) ? Json::encode($this->settings) : '';
 
         $view->registerJs("jQuery($selector).trumbowyg($settings);");
