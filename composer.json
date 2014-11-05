@@ -16,7 +16,7 @@
     },
     "require": {
     	"yiisoft/yii2": "*",
-    	"bower-asset/trumbowyg": "@stable",
+    	"bower-asset/trumbowyg": "@stable"
 	},
     "autoload": {
         "psr-4": { 
