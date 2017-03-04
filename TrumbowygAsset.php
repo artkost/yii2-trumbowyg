@@ -40,10 +40,15 @@ class TrumbowygAsset extends AssetBundle
             $this->js[] = 'langs/' . $this->language . '.min.js';
         }
         if (!empty($this->plugins)) {
-            foreach ($this->plugins as $plugin) {
+            foreach ($this->plugins as $plugin => $properties) {
+                if (is_string($properties)) {
+                    $plugin = $properties;
+                }
+
                 if ($plugin === 'colors') {
                     $this->css[] = 'plugins/' . $plugin . '/ui/trumbowyg.' . $plugin . '.css';
                 }
+
                 $this->js[] = 'plugins/' . $plugin . '/trumbowyg.' . $plugin . '.js';
             }
         }
