@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
  * @author Nikolay Kostyurin <nikolay@artkost.ru>
  * @since 2.0
  */
-class Asset extends AssetBundle
+class TrumbowygAsset extends AssetBundle
 {
     public $sourcePath = '@bower/trumbowyg/dist';
     public $css = [

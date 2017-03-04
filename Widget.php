@@ -22,7 +22,7 @@ use Yii;
  * @link http://alex-d.github.io/Trumbowyg/
  * @license http://github.com/artkost/yii2-trumbowyg/blob/master/LICENSE
  */
-class Widget extends InputWidget
+class Trumbowyg extends InputWidget
 {
     /**
      * @var array {@link http://alex-d.github.io/Trumbowyg/documentation.html options}.
@@ -100,7 +100,7 @@ class Widget extends InputWidget
     {
         $view = $this->getView();
         $selector = Json::encode($this->selector);
-        $asset = Asset::register($view);
+        $asset = TrumbowygAsset::register($view);
 
         if (isset($this->settings['lang'])) {
             $asset->language = $this->settings['lang'];
