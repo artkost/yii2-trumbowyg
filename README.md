@@ -32,7 +32,7 @@ Once the extension is installed, simply use it in your code:
 ### Use as widget ###
 
 ```php
-echo \artkost\trumbowyg\Widget::widget([
+echo \artkost\trumbowyg\Trumbowyg::widget([
     'settings' => [
         'lang' => 'ru'
     ]
@@ -42,9 +42,9 @@ echo \artkost\trumbowyg\Widget::widget([
 ### Use as ActiveForm widget ###
 
 ```php
-use artkost\trumbowyg\Widget;
+use artkost\trumbowyg\Trumbowyg;
 
-echo $form->field($model, 'content')->widget(Widget::className(), [
+echo $form->field($model, 'content')->widget(Trumbowyg::className(), [
     'settings' => [
         'lang' => 'ru'
     ]
