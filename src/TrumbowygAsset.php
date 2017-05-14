@@ -1,6 +1,6 @@
 <?php
 
-namespace artkost\trumbowyg;
+namespace artkost\yii2\trumbowyg;
 
 use yii\web\AssetBundle;
 
@@ -39,6 +39,7 @@ class TrumbowygAsset extends AssetBundle
         if ($this->language !== null) {
             $this->js[] = 'langs/' . $this->language . '.min.js';
         }
+
         if (!empty($this->plugins)) {
             foreach ($this->plugins as $plugin => $properties) {
                 if (is_string($properties)) {
@@ -52,6 +53,7 @@ class TrumbowygAsset extends AssetBundle
                 $this->js[] = 'plugins/' . $plugin . '/trumbowyg.' . $plugin . '.js';
             }
         }
+
         parent::registerAssetFiles($view);
     }
 }

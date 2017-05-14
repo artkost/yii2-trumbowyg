@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "artkost\\trumbowyg\\": ""
+            "artkost\\yii2\\trumbowyg\\": "src"
         }
     }
 }

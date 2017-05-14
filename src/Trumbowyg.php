@@ -1,6 +1,6 @@
 <?php
 
-namespace artkost\trumbowyg;
+namespace artkost\yii2\trumbowyg;
 
 use yii\base\InvalidConfigException;
 use yii\helpers\Html;
@@ -16,7 +16,7 @@ use Yii;
  *
  * @author Nikolay Kostyurin <nikolay@artkost.ru>
  *
- * @version 1.1.7
+ * @version 2.0
  *
  * @link http://github.com/artkost/yii2-trumbowyg
  * @link http://alex-d.github.io/Trumbowyg/

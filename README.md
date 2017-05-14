@@ -23,7 +23,6 @@ or add
 
 to the require section of your `composer.json` file.
 
-
 Usage
 -----
 
@@ -32,7 +31,7 @@ Once the extension is installed, simply use it in your code:
 ### Use as widget ###
 
 ```php
-echo \artkost\trumbowyg\Trumbowyg::widget([
+echo \artkost\yii2\trumbowyg\Trumbowyg::widget([
     'settings' => [
         'lang' => 'ru'
     ]
@@ -42,7 +41,7 @@ echo \artkost\trumbowyg\Trumbowyg::widget([
 ### Use as ActiveForm widget ###
 
 ```php
-use artkost\trumbowyg\Trumbowyg;
+use artkost\yii2\trumbowyg\Trumbowyg;
 
 echo $form->field($model, 'content')->widget(Trumbowyg::className(), [
     'settings' => [
