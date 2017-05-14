@@ -12,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist artkost/yii2-trumbowyg "*"
+php composer.phar require --prefer-dist artkost/yii2-trumbowyg "@stable"
 ```
 
 or add
 
 ```
-"artkost/yii2-trumbowyg": "*"
+"artkost/yii2-trumbowyg": "@stable"
 ```
 
 to the require section of your `composer.json` file.
