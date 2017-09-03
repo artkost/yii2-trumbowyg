@@ -32,6 +32,7 @@ Once the extension is installed, simply use it in your code:
 
 ```php
 echo \artkost\yii2\trumbowyg\Trumbowyg::widget([
+    'name' => 'myname',
     'settings' => [
         'lang' => 'ru'
     ]

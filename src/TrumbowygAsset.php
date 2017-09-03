@@ -12,7 +12,7 @@ use yii\web\AssetBundle;
  */
 class TrumbowygAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/trumbowyg/dist';
+    public $sourcePath = '@npm/trumbowyg/dist';
     public $css = [
         'ui/trumbowyg.css'
     ];
