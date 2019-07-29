@@ -17,6 +17,10 @@
         {
             "name": "A.Kustov",
             "email": "v8diesel@mail.ru"
+        },
+        {
+            "name": "Alexandr Ivanov",
+            "email": "t3mnikov@yandex.ru"
         }
     ],
     "support": {
@@ -25,7 +29,7 @@
     },
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "npm-asset/trumbowyg": "2.7.1"
+        "npm-asset/trumbowyg": "2.18.0"
     },
     "autoload": {
         "psr-4": {
