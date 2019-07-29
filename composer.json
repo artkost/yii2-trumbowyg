@@ -1,39 +1,43 @@
 {
-    "name": "artkost/yii2-trumbowyg",
-    "description": "The Trumbowyg WYSIWYG Editor widget for yii2 framework",
-    "type": "yii2-extension",
-    "keywords": [
-        "yii2",
-        "yii 2",
-        "trumbowyg",
-        "wysiwyg",
-        "widget"
-    ],
-    "license": "MIT",
-    "authors": [{
-            "name": "Nikolay Kostyurin",
-            "email": "nikolay@artkost.ru"
-        },
-        {
-            "name": "A.Kustov",
-            "email": "v8diesel@mail.ru"
-        },
-        {
-            "name": "Alexandr Ivanov",
-            "email": "t3mnikov@yandex.ru"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/artkost/yii2-trumbowyg/issues?state=open",
-        "source": "https://github.com/artkost/yii2-trumbowyg"
+  "name": "artkost/yii2-trumbowyg",
+  "description": "The Trumbowyg WYSIWYG Editor widget for yii2 framework",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "yii 2",
+    "trumbowyg",
+    "wysiwyg",
+    "widget"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nikolay Kostyurin",
+      "email": "nikolay@artkost.ru",
+      "role": "Author"
     },
-    "require": {
-        "yiisoft/yii2": "~2.0.0",
-        "npm-asset/trumbowyg": "2.18.0"
+    {
+      "name": "A.Kustov",
+      "email": "v8diesel@mail.ru",
+      "role": "Contributor"
     },
-    "autoload": {
-        "psr-4": {
-            "artkost\\yii2\\trumbowyg\\": "src"
-        }
+    {
+      "name": "Alexandr Ivanov",
+      "email": "t3mnikov@yandex.ru",
+      "role": "Contributor"
     }
+  ],
+  "support": {
+    "issues": "https://github.com/artkost/yii2-trumbowyg/issues?state=open",
+    "source": "https://github.com/artkost/yii2-trumbowyg"
+  },
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "npm-asset/trumbowyg": "2.18.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "artkost\\yii2\\trumbowyg\\": "src"
+    }
+  }
 }
